@@ -231,6 +231,12 @@ $(function(){
 	});
 });
 
+$(function(){
+	$("#five").on("click",function(){
+		alert("進入Lab5網頁");
+	});
+});
+
 
 $(document).ready(function(){
     newImage1 = new Image(); //預載入圖片
