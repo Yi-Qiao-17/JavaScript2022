@@ -285,3 +285,15 @@ $(document).ready(function(){
 			$('#four').attr('src',oldImage4);
 	});
 });
+
+$(document).ready(function(){
+    newImage5 = new Image(); //預載入圖片
+    oldImage5 = $('#five').attr('src');
+    newImage5.src = './images/YoutubeImg2.jpg';
+    $('#five').hover(function(){ //滑鼠滑過圖片切換
+			$('#five').attr('src',newImage5.src);
+    	},
+		function(){
+			$('#five').attr('src',oldImage5);
+	});
+});
